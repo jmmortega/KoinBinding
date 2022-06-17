@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoinCoreBinding", "KoinCoreBinding\KoinCoreBinding.csproj", "{6311FAE5-78E4-4F76-A85C-D09B31638B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoinAndroidBinding", "KoinAndroidBinding\KoinAndroidBinding.csproj", "{D3E227B9-2CA2-455A-A37F-9723C56D5D98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6311FAE5-78E4-4F76-A85C-D09B31638B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6311FAE5-78E4-4F76-A85C-D09B31638B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6311FAE5-78E4-4F76-A85C-D09B31638B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6311FAE5-78E4-4F76-A85C-D09B31638B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E227B9-2CA2-455A-A37F-9723C56D5D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E227B9-2CA2-455A-A37F-9723C56D5D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E227B9-2CA2-455A-A37F-9723C56D5D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E227B9-2CA2-455A-A37F-9723C56D5D98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86D354C9-C3DF-4E99-A9D3-9ED2A22AD9CA}
+	EndGlobalSection
+EndGlobal

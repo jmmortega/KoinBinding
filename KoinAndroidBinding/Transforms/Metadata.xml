@@ -1,0 +1,21 @@
+﻿<metadata>
+
+
+    <!--Error CS0535: 'LifecycleScopeDelegate' does not implement interface member 'IReadOnlyProperty.GetValue(Object, IKProperty)' (CS0535) (KoinAndroidBinding)-->
+   
+    <!--Error CS0535: 'LifecycleViewModelScopeDelegate' does not implement interface member 'IReadOnlyProperty.GetValue(Object, IKProperty)' (CS0535) (KoinAndroidBinding)-->
+
+    
+    <!-- Remove covariance
+    From returned type and parameter 1 (LifecycleOwner to object)
+    -->
+
+ 
+    <attr path="/api/package[@name='org.koin.androidx.scope']/class[@name='LifecycleViewModelScopeDelegate']/method[@name='getValue' and count(parameter)=2 and parameter[1][@type='androidx.lifecycle.LifecycleOwner'] and parameter[2][@type='kotlin.reflect.KProperty&lt;?&gt;']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='org.koin.androidx.scope']/class[@name='LifecycleViewModelScopeDelegate']/method[@name='getValue' and count(parameter)=2 and parameter[1][@type='androidx.lifecycle.LifecycleOwner'] and parameter[2][@type='kotlin.reflect.KProperty&lt;?&gt;']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+
+    
+    <attr path="/api/package[@name='org.koin.androidx.scope']/class[@name='LifecycleScopeDelegate']/method[@name='getValue' and count(parameter)=2 and parameter[1][@type='androidx.lifecycle.LifecycleOwner'] and parameter[2][@type='kotlin.reflect.KProperty&lt;?&gt;']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='org.koin.androidx.scope']/class[@name='LifecycleScopeDelegate']/method[@name='getValue' and count(parameter)=2 and parameter[1][@type='androidx.lifecycle.LifecycleOwner'] and parameter[2][@type='kotlin.reflect.KProperty&lt;?&gt;']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+</metadata>
